@@ -9,7 +9,7 @@ const Header = () => {
                <li><Link to="/about">TV Shows</Link></li>
                <li><Link to="#">Movies</Link></li>
                <li><Link to="https://www.google.co.in/" target="_blank">news&Popular</Link></li>
-               <a href='https://www.google.co.in/' target='_blank'>visit</a>
+               {/* <a href='https://www.google.co.in/' target='_blank'>visit</a> */}
                <li><Link to="#">My list</Link></li>
                <li><Link to="/login" className='accont-mob'>Account</Link></li>
                

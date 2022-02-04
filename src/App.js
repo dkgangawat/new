@@ -1,4 +1,4 @@
-import react, { useState } from 'react';
+import { useState } from 'react';
 import './App.css';
 import Header from './componets/Header';
 import Card from './componets/Card';
@@ -8,6 +8,7 @@ import Testt from "./Testt"
 import Login from './componets/Login';
 import Register from './componets/register';
 function App() {
+  // eslint-disable-next-line
   const [ApiData, setApiData] = useState(Api);
 
   return (

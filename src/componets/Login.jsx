@@ -16,7 +16,7 @@ const Login = (e) => {
       email,pass
       }
        ) });
-      if(res.status==200){
+      if(res.status===200){
          navigate('/');
       }
    

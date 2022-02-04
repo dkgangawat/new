@@ -1,6 +1,6 @@
 import React from "react";
 import Account_icon from "./Images/account-icon.svg";
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Register = (e) => {
   const Navigate= useNavigate();
@@ -20,11 +20,11 @@ const Register = (e) => {
          pass
       })
     })
-    if(res.status==404){
+    if(res.status===404){
       const email = document.getElementById('form').email;
       email.style.border = "2px solid red";
     }
-    if(res.status==200){
+    if(res.status===200){
       alert("resistration done");
       Navigate("/login")
     }
